@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 2
+img: Flyers.png
+alt: image-alt
+teamname: Girls Hockey Club Inferno Flyers
+description: The Inferno Flyers arrive with speed, creativity, and a commitment to developing every player on their roster. This U15 group plays an exciting brand of hockey built on skill building, teamwork, and a positive team culture. They compete hard, lift one another up, and bring an inspiring energy that families and fans will appreciate.
+---
