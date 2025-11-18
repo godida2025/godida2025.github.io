@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-img: NWW.png
+img: Warrriors.png
 alt: image-alt
 teamname: Northwest Warrriors
 description: The Northwest Warriors bring a strong mix of skill, determination, and team-first hockey to the tournament. This group of talented U15 players is known for their work ethic, smart plays, and steady growth throughout the season. Parents and fans can expect disciplined hockey, confident skating, and a team that supports each other on and off the ice.
