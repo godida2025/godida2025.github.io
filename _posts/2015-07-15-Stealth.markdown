@@ -1,0 +1,8 @@
+---
+layout: default
+modal-id: 4
+img: Stealth.png
+alt: Stealth_logo
+teamname: SEERA Stealth
+description: SEERA (Southeast Edmonton Recreation Association) Stealth fields a talented and well-rounded U15 team that blends structure, speed, and teamwork. These players are committed to growing their game while building friendships and confidence along the way. With a respectful, hard-working approach to competition, SEERA showcases the best of youth hockey and the values that families care about.
+---

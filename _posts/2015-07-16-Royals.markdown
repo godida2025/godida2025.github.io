@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 img: Royals.png
-alt: image-alt
+alt: Royals_logo
 teamname: Medicine Hat Royals 
-description: The Medicine Hat Royals are a determined U15 squad that plays with heart, discipline, and a passion for continuous improvement. Known for strong fundamentals and a supportive team environment, the Royals show up ready to work, learn, and compete. Their players bring enthusiasm to every shift and consistently make their community proud.
+description: The MH Royals are a determined U15 squad that plays with heart, discipline, and a passion for continuous improvement. Known for strong fundamentals and a supportive team environment, the Royals show up ready to work, learn, and compete. Their players bring enthusiasm to every shift and consistently make their community proud.
 ---

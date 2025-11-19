@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 img: Flyers.png
-alt: image-alt
+alt: Flyers_logo
 teamname: Girls Hockey Club Flyers
-description: The Flyers arrive with speed, creativity, and a commitment to developing every player on their roster. This U15 group plays an exciting brand of hockey built on skill building, teamwork, and a positive team culture. They compete hard, lift one another up, and bring an inspiring energy that families and fans will appreciate.
+description: The GHC Flyers arrive with speed, creativity, and a commitment to developing every player on their roster. This U15 group plays an exciting brand of hockey built on skill building, teamwork, and a positive team culture. They compete hard, lift one another up, and bring an inspiring energy that families and fans will appreciate.
 ---
