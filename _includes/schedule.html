@@ -1,25 +1,47 @@
 <!-- About Section -->
 <section class="success" id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Schedules</h2>
-        <hr class="star-light">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <img src="img/Game01.png" width="100%"><br />
-        <img src="img/Game02.png" width="100%"><br />
-        <img src="img/Game03.png" width="100%"><br />
-        <img src="img/Game04.png" width="100%">
-      </div>
-      <div class="col-lg-6">
-        <img src="img/Game05.png" width="100%"><br />
-        <img src="img/Game06.png" width="100%"><br />
-        <img src="img/Game07.png" width="100%"><br />
-        <img src="img/Game08.png" width="100%">
-      </div>
-    </div>
-  </div>
+        <div class="container">
+                <div class="row">
+                        <div class="col-lg-12 text-center">
+                                <h2>Schedules</h2>
+                                <hr class="star-light">
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-lg-6">
+                                <img src="img/Game01.png" width="100%" id="game01"><br />
+                                <img src="img/Game02.png" width="100%" id="game02"><br />
+                                <img src="img/Game03.png" width="100%" id="game03"><br />
+                                <img src="img/Game04.png" width="100%" id="game04">
+                        </div>
+                        <div class="col-lg-6">
+                                <img src="img/Game05.png" width="100%" id="game05"><br />
+                                <img src="img/Game06.png" width="100%" id="game06"><br />
+                                <img src="img/Game07.png" width="100%" id="game07"><br />
+                                <img src="img/Game08.png" width="100%" id="game08">
+                        </div>
+                </div>
+        </div>
 </section>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    // list all game ids
+    const ids = [
+        "game01", "game02", "game03", "game04",
+        "game05", "game06"
+    ];
+
+    ids.forEach(function(id) {
+        const img = document.getElementById(id);
+        if (!img) return;
+
+        const base = id.replace("game", "Game");
+        const front = "img/" + base + ".png";
+        const back  = "img/" + base + "_tasks.png";
+
+        img.addEventListener("click", function () {
+            img.src = img.src.includes("_tasks") ? front : back;
+        });
+    });
+});
+</script>
